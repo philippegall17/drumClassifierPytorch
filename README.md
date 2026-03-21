@@ -40,12 +40,12 @@ For example, if you have kicks and snares, make two new folders called Kick and 
 Simply run python ModelTrainer03.py which will replace the old .safetensors.
 The best model is saved automatically to files_modeloutputs/ whenever validation accuracy improves.
 
-## File overview
-
-files_drumtrainingdata/ - place your sample folders in here
-files_modeloutputs/     - Saved model weights and class list 
-quickstart/             - Example sample + launcher bat 
-Preprocessor01.py       - Audio loading, resampling, mel spectrogram conversion, dataset class 
-NeuralNetwork02.py      - CNN architecture 
-ModelTrainer03.py       - Training loop 
-Inference04.py          - Run the model on a single file 
+| File / Folder              | Description                                                                 |
+|----------------------------|-----------------------------------------------------------------------------|
+| files_drumtrainingdata/    | Place your sample folders in here                                           |
+| files_modeloutputs/        | Saved model weights and class list                                          |
+| quickstart/                | Example sample + launcher .bat                                              |
+| Preprocessor01.py          | Audio loading, resampling, mel spectrogram conversion, dataset class        |
+| NeuralNetwork02.py         | CNN architecture                                                            |
+| ModelTrainer03.py          | Training loop                                                               |
+| Inference04.py             | Run the model on a single file                                              |
