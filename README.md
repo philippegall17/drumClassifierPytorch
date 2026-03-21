@@ -21,13 +21,12 @@ Files are copied, so your original files should be save. However, files of same 
 
 # Install dependencies
 
-pip install -r requirements.txt
-The CUDA versions of torch/torchaudio are pinned in requirements.txt. I used CUDA version 13.0.
+Using pip install -r requirements.txt. The CUDA versions of torch/torchaudio are pinned in requirements.txt. I used CUDA version 13.0.
 
 # Run inference on your own file
 
-python Inference04.py path/to/your/sample.wav
-python Inference04.py path/to/your/sample.wav --enable-plots
+Either by python Inference04.py path/to/your/sample.wav or
+python Inference04.py path/to/your/sample.wav --enable-plots.
 
 Drag and drop a wav/mp3/flac file into the console, it usually autogenerates the path (such as in VS Code on Windows).
 
@@ -43,10 +42,10 @@ The best model is saved automatically to files_modeloutputs/ whenever validation
 
 ## File overview
 
-files_drumtrainingdata/ -   place your sample folders in here
-files_modeloutputs/     -   Saved model weights and class list 
-quickstart/             -   Example sample + launcher bat 
-Preprocessor01.py       -   Audio loading, resampling, mel spectrogram conversion, dataset class 
-NeuralNetwork02.py      -   CNN architecture 
-ModelTrainer03.py       -   Training loop 
-Inference04.py          -   Run the model on a single file 
+files_drumtrainingdata/ - place your sample folders in here
+files_modeloutputs/     - Saved model weights and class list 
+quickstart/             - Example sample + launcher bat 
+Preprocessor01.py       - Audio loading, resampling, mel spectrogram conversion, dataset class 
+NeuralNetwork02.py      - CNN architecture 
+ModelTrainer03.py       - Training loop 
+Inference04.py          - Run the model on a single file 
