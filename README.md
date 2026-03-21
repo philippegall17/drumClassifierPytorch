@@ -2,6 +2,7 @@
 
 This code implements a Pytorch-based CNN that classifies drum samples of whatever types you desire from audio files. 
 It does so by converting them to mel spectrograms and running them through a 4-block convolutional neural network.
+The structure of it is explained well in the NeuralNetwork02.py file, and I made extensive comments everywhere as it was my first Pytorch project.
 It is pretrained on 12 classes; Bass, Blip, Bongo, Clap, Cymbal, HiHat, Kick, Rim, SFX, Snare, Tom, and Udu; from my own drum sample collection. 
 But you can use any combination of sound types you want, see retrain section below.
 
