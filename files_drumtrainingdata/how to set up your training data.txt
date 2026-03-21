@@ -1,0 +1,20 @@
+In this directory you can put as many folders as you want.
+The folder names will be the drum categories the classifier learns.
+
+The amount of files per folder is arbitrary. 
+They are weighted automatically in training.
+
+Example Filetree:
+files_drumtrainingdata
+|
+|- Cymbals
+|  |
+|  |- Cymbal_1.flac
+|  |- Cymbalsound.mp3
+|  ...
+|
+|- Bass
+|  |
+|  |- Bass1.flac
+|
+...

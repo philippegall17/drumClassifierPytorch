@@ -1,0 +1,6 @@
+torch==2.10.0+cu130
+torchaudio==2.10.0+cu130
+safetensors==0.7.0
+soundfile==0.13.1
+matplotlib==3.10.7
+numpy==2.2.6
