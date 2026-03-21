@@ -13,6 +13,15 @@ Double-click quickstart/quickstart.bat.
 It runs the included example.mp3 sample through the trained model and prints the results. 
 It will ask whether you want to see the mel spectrogram and CNN feature map plots or not.
 
+The result using the provided 808 drum kick file will look like this:
+| Class | Confidence | Visualization                  |
+|-------|------------|--------------------------------|
+| Kick  | 83.5%      | █████████████████████████      |
+| Tom   | 9.6%       | ██                             |
+| Bass  | 6.9%       | ██                             |
+
+Which is a pretty good result, as the 808 kick naturally has some bass and tom character.
+
 # Automatic File Sorting
 
 If the quickstart works well, you can copy paste your unsorted drum files into files_inferencesorting/unsorted_files.
