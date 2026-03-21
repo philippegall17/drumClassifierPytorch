@@ -5,7 +5,7 @@ It does so by converting them to mel spectrograms and running them through a 4-b
 It is pretrained on 12 classes; Bass, Blip, Bongo, Clap, Cymbal, HiHat, Kick, Rim, SFX, Snare, Tom, and Udu; from my own drum sample collection. 
 But you can use any combination of sound types you want, see retrain section below.
 
-I made it to learn PyTorch, and a drum classifier was the most interesting for me as a hobby musician.
+I made it to learn PyTorch, and a drum classifier was an interesting idea with readily available dataset for me as a hobby musician.
 
 # Quickstart
 
