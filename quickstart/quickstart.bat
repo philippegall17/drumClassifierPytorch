@@ -5,8 +5,8 @@ cd /d "%~dp0\.."
 
 set /p PLOTCHOICE="Show feature map plots? (Y/N): "
 if /i "%PLOTCHOICE%"=="Y" (
-    python Inference04.py "quickstart/example.mp3" --enable-plots
+    python InferenceSingle04.py "quickstart/example.mp3" --enable-plots
 ) else (
-    python Inference04.py "quickstart/example.mp3"
+    python InferenceSingle04.py "quickstart/example.mp3"
 )
 pause
